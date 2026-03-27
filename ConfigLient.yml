@@ -1,0 +1,21 @@
+# Database URL
+spring.datasource.url=jdbc:mysql://localhost:3306/viraj
+
+# DB Username & Password
+spring.datasource.username=root
+spring.datasource.password=vivek02
+
+# MySQL Driver
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# Show SQL queries in console
+spring.jpa.show-sql=true
+
+# Format SQL nicely
+spring.jpa.properties.hibernate.format_sql=true
+
+# Auto update DB schema
+spring.jpa.hibernate.ddl-auto=update
+
+# Dialect (MySQL)
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
