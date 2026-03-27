@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/viraj
     username: root
-    password: vivek02
+    password: vivek
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
